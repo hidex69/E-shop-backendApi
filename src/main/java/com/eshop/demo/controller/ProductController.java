@@ -37,5 +37,12 @@ public class ProductController {
         productDAO.addProduct(productDto);
         response.sendRedirect("/product");
     }
+    
+    @PostMapping("product/update/{id}")
+    public void changeProduct(@RequestBody ProductDto productDto,
+                              @PathVariable int id, HttpServletResponse response) throws IOException {
+        productDAO.updateProduct(productDto, id);
+        response.sendRedirect("/product");
+    }
 
 }
