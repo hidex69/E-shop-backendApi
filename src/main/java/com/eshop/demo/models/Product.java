@@ -1,6 +1,8 @@
 package com.eshop.demo.models;
 
+
 public class Product {
+
     private int id;
     private String name;
     private String shortDescription;

@@ -9,36 +9,38 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
+@RequestMapping("/product")
 public class ProductController {
 
     @Autowired
     private ProductDAO productDAO;
 
-    @GetMapping("/product")
+    @GetMapping("/")
     public List<Product> loadProducts() {
         return productDAO.loadAllProducts();
     }
 
-    @GetMapping("/product/{id}")
+    @GetMapping("/{id}")
     public Product loadProduct(@PathVariable int id) {
         return productDAO.loadProduct(id);
     }
     
-    @PostMapping("/product/delete/{id}")
+    @PostMapping("/delete/{id}")
     public void deleteProduct(@PathVariable int id, HttpServletResponse response) throws IOException {
         productDAO.deleteProduct(id);
         response.sendRedirect("/product");
     }
 
-    @PostMapping("/product/add")
+    @PostMapping("/add")
     public void addProduct(@RequestBody ProductDto productDto, HttpServletResponse response) throws IOException {
         productDAO.addProduct(productDto);
         response.sendRedirect("/product");
     }
     
-    @PostMapping("product/update/{id}")
+    @PostMapping("/update/{id}")
     public void changeProduct(@RequestBody ProductDto productDto,
                               @PathVariable int id, HttpServletResponse response) throws IOException {
         productDAO.updateProduct(productDto, id);
