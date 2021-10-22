@@ -3,6 +3,7 @@ package com.eshop.demo.config;
 import com.eshop.demo.config.jwt.JwtFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -26,9 +27,9 @@ public class SecurityCfg extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers( "/auth", "/register").permitAll()
-                .antMatchers("/admin/*", "/product/**").hasRole("ADMIN")
-                .antMatchers("/user/*").hasRole("USER")
+                .antMatchers( "/auth", "/register", "/product/").permitAll()
+                .antMatchers(HttpMethod.POST, "/admin/*", "/product/**").hasRole("ADMIN")
+                .antMatchers(HttpMethod.GET, "/product/**").hasRole("USER")
                 .and()
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
