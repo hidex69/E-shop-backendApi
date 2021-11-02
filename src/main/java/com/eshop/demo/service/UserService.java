@@ -1,12 +1,16 @@
 package com.eshop.demo.service;
 
-import com.eshop.demo.models.RoleEntity;
-import com.eshop.demo.models.UserEntity;
+import com.eshop.demo.config.jwt.JwtFilter;
+import com.eshop.demo.config.jwt.JwtProvider;
+import com.eshop.demo.models.user.RoleEntity;
+import com.eshop.demo.models.user.UserEntity;
 import com.eshop.demo.repository.RoleEntityRepository;
 import com.eshop.demo.repository.UserEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import javax.servlet.http.HttpServletRequest;
 
 @Service
 public class UserService {
@@ -17,6 +21,10 @@ public class UserService {
     private RoleEntityRepository roleEntityRepository;
     @Autowired
     private PasswordEncoder passwordEncoder;
+    @Autowired
+    private JwtFilter jwtFilter;
+    @Autowired
+    private JwtProvider jwtProvider;
 
     public UserEntity saveUser(UserEntity userEntity) {
         RoleEntity userRole = roleEntityRepository.findByName("ROLE_USER");
@@ -37,6 +45,12 @@ public class UserService {
             }
         }
         return null;
+    }
+
+    public UserEntity getUserByRequest(HttpServletRequest request) {
+        String token = jwtFilter.getTokenFromRequest(request);
+        UserEntity user = userEntityRepository.findByLogin(jwtProvider.getLoginFromToken(token));
+        return user;
     }
 
 }

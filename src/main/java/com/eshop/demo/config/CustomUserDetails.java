@@ -1,6 +1,6 @@
 package com.eshop.demo.config;
 
-import com.eshop.demo.models.UserEntity;
+import com.eshop.demo.models.user.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

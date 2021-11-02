@@ -1,8 +1,8 @@
 package com.eshop.demo.DAO;
 
-import com.eshop.demo.models.Product;
-import com.eshop.demo.models.ProductDto;
-import com.eshop.demo.rowmapper.ProductRowMapper;
+import com.eshop.demo.models.product.Product;
+import com.eshop.demo.models.product.ProductDto;
+import com.eshop.demo.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -15,21 +15,19 @@ public class ProductDAO {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
+    @Autowired
+    private ProductRepository productRepository;
+
 
     public List<Product> loadAllProducts() {
 
-        String sql = "select * from product";
-
-        List<Product> products = jdbcTemplate.query(sql, new ProductRowMapper());
-
-        return products;
+        return productRepository.findAll();
 
     }
 
     public Product loadProduct(int id) {
-        String sql = "select * from product where id = ?";
 
-        return jdbcTemplate.queryForObject(sql, new Object[]{id}, new ProductRowMapper());
+        return productRepository.findById(id).get();
     }
 
     public void deleteProduct(int id) {
@@ -49,6 +47,12 @@ public class ProductDAO {
 
         jdbcTemplate.update(sql, productDto.getName(), productDto.getShortDescription(),
                 productDto.getCost(), id);
+    }
+
+    public void loadToBasket(int user_id, int product_id) {
+        String sql = "insert into basket(user_id, product_id) values(?, ?)";
+
+        jdbcTemplate.update(sql, user_id, product_id);
     }
 
 }

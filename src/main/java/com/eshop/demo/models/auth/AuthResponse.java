@@ -1,4 +1,4 @@
-package com.eshop.demo.models;
+package com.eshop.demo.models.auth;
 
 public class AuthResponse {
     private String token;

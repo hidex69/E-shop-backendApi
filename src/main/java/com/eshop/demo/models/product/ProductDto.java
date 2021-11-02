@@ -1,29 +1,17 @@
-package com.eshop.demo.models;
+package com.eshop.demo.models.product;
 
-
-public class Product {
-
-    private int id;
+public class ProductDto {
     private String name;
     private String shortDescription;
     private int cost;
 
-    public Product() {
-    }
-
-    public Product(int id, String name, String shortDescription, int cost) {
-        this.id = id;
+    public ProductDto(String name, String shortDescription, int cost) {
         this.name = name;
         this.shortDescription = shortDescription;
         this.cost = cost;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public ProductDto() {
     }
 
     public String getName() {
@@ -52,9 +40,8 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+        return "ProductDto{" +
+                "name='" + name + '\'' +
                 ", shortDescription='" + shortDescription + '\'' +
                 ", cost=" + cost +
                 '}';

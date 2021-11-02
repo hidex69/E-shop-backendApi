@@ -2,14 +2,13 @@ package com.eshop.demo.controller;
 
 import com.eshop.demo.config.CustomUserDetails;
 import com.eshop.demo.config.jwt.JwtProvider;
-import com.eshop.demo.models.AuthRequest;
-import com.eshop.demo.models.AuthResponse;
-import com.eshop.demo.models.RegistrationRequest;
-import com.eshop.demo.models.UserEntity;
+import com.eshop.demo.models.auth.AuthRequest;
+import com.eshop.demo.models.auth.AuthResponse;
+import com.eshop.demo.models.auth.RegistrationRequest;
+import com.eshop.demo.models.user.UserEntity;
 import com.eshop.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -39,7 +38,6 @@ public class AuthController {
     public AuthResponse auth(@RequestBody AuthRequest request) {
         UserEntity userEntity = userService.findByLoginAndPassword(request.getLogin(), request.getPassword());
         String token = jwtProvider.generateToken(CustomUserDetails.fromUserEntityToCustumUserDetails(userEntity));
-        System.out.println("owo");
         return new AuthResponse(token);
     }
 }
