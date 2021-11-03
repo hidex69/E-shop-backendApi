@@ -3,7 +3,9 @@ package com.eshop.demo.controller;
 import com.eshop.demo.DAO.ProductDAO;
 import com.eshop.demo.models.product.Product;
 import com.eshop.demo.models.product.ProductDto;
+import com.eshop.demo.models.product.RatingRequest;
 import com.eshop.demo.service.BasketService;
+import com.eshop.demo.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,15 +19,16 @@ import java.util.Set;
 @RequestMapping("/product")
 public class ProductController {
 
-    //TODO: method to rate a product
-
     @Autowired
     private ProductDAO productDAO;
 
     @Autowired
     private BasketService basketService;
 
-    @GetMapping("/")
+    @Autowired
+    private ProductService productService;
+
+    @GetMapping("")
     public List<Product> loadProducts() {
         return productDAO.loadAllProducts();
     }
@@ -62,8 +65,8 @@ public class ProductController {
         return basketService.getAll(request);
     }
 
-    @PostMapping
-    public void seProductRating() {
-
+    @PostMapping("/rate")
+    public void seProductRating(@RequestBody RatingRequest rating) {
+        productService.setRating(rating.getProduct_id(), rating.getRating());
     }
 }

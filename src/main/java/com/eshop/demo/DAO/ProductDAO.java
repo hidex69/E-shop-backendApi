@@ -37,7 +37,8 @@ public class ProductDAO {
     }
 
     public void addProduct(ProductDto productDto) {
-        String sql = "insert into product (name, shortdescription, cost) values(?, ?, ?)";
+        String sql = "insert into product (name, shortdescription, cost, rating_total, rating_counter)" +
+                " values(?, ?, ?, 0, 0)";
 
         jdbcTemplate.update(sql, productDto.getName(), productDto.getShortDescription(), productDto.getCost());
     }
@@ -53,6 +54,13 @@ public class ProductDAO {
         String sql = "insert into basket(user_id, product_id) values(?, ?)";
 
         jdbcTemplate.update(sql, user_id, product_id);
+    }
+
+    public void rateProduct(int product_id, int rate) {
+        String sql = "update product set rating_total = 1, rating_counter = 2 " +
+                "where id = ?";
+
+        jdbcTemplate.update(sql, product_id);
     }
 
 }
