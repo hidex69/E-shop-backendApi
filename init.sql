@@ -1,3 +1,4 @@
+create database shop;
 \c shop
 
 create table product_category (   
