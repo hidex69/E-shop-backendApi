@@ -1,6 +1,7 @@
 package com.eshop.demo.service;
 
 import com.eshop.demo.DAO.ProductDAO;
+import com.eshop.demo.exceptions.NoTokenException;
 import com.eshop.demo.models.product.Product;
 import com.eshop.demo.repository.UserEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,11 +22,11 @@ public class BasketService {
     @Autowired
     private UserEntityRepository userEntityRepository;
 
-    public void addToBasket(int product_id, HttpServletRequest request) {
+    public void addToBasket(int product_id, HttpServletRequest request) throws NoTokenException {
         productDAO.loadToBasket(userService.getUserByRequest(request).getId(), product_id);
     }
 
-    public Set<Product> getAll(HttpServletRequest request) {
+    public Set<Product> getAll(HttpServletRequest request) throws NoTokenException {
         return userEntityRepository.findById(userService.getUserByRequest(request).getId()).get().getProducts();
     }
 }

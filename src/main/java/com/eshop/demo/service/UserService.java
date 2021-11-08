@@ -2,6 +2,7 @@ package com.eshop.demo.service;
 
 import com.eshop.demo.config.jwt.JwtFilter;
 import com.eshop.demo.config.jwt.JwtProvider;
+import com.eshop.demo.exceptions.NoTokenException;
 import com.eshop.demo.models.user.RoleEntity;
 import com.eshop.demo.models.user.UserEntity;
 import com.eshop.demo.repository.RoleEntityRepository;
@@ -47,8 +48,11 @@ public class UserService {
         return null;
     }
 
-    public UserEntity getUserByRequest(HttpServletRequest request) {
+    public UserEntity getUserByRequest(HttpServletRequest request) throws NoTokenException {
         String token = jwtFilter.getTokenFromRequest(request);
+        if (token == null) {
+            throw new NoTokenException("User not sign in");
+        }
         UserEntity user = userEntityRepository.findByLogin(jwtProvider.getLoginFromToken(token));
         return user;
     }

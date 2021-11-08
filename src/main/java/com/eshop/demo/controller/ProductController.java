@@ -1,6 +1,7 @@
 package com.eshop.demo.controller;
 
 import com.eshop.demo.DAO.ProductDAO;
+import com.eshop.demo.exceptions.NoTokenException;
 import com.eshop.demo.models.product.Product;
 import com.eshop.demo.models.product.ProductDto;
 import com.eshop.demo.models.product.RatingRequest;
@@ -14,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;
+
 
 @RestController
 @RequestMapping("/product")
@@ -56,12 +58,12 @@ public class ProductController {
     }
 
     @PostMapping("/basket/add/{id}")
-    public void addToBasket(@PathVariable int id, HttpServletRequest request) {
+    public void addToBasket(@PathVariable int id, HttpServletRequest request) throws NoTokenException {
         basketService.addToBasket(id, request);
     }
 
     @GetMapping("/basket/show")
-    public Set<Product> getUserBasket(HttpServletRequest request) {
+    public Set<Product> getUserBasket(HttpServletRequest request) throws NoTokenException {
         return basketService.getAll(request);
     }
 

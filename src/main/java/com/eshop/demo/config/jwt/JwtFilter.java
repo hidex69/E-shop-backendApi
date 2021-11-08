@@ -48,6 +48,7 @@ public class JwtFilter extends GenericFilterBean {
         if (hasText(bearer) && bearer.startsWith("Bearer ")) {
             return bearer.split(" ")[1].trim();
         }
+        //TODO: make check from cookie
         return null;
     }
 }
