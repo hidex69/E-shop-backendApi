@@ -63,6 +63,11 @@ public class ProductController {
         basketService.addToBasket(id, request);
     }
 
+    @PostMapping("/basket/remove/{id}")
+    public void removeFromBasket(@PathVariable int id, HttpServletRequest request) throws NoTokenException {
+        basketService.removeFromBasket(id, request);
+    }
+
     @GetMapping("/basket/show")
     public Set<Product> getUserBasket(HttpServletRequest request) throws NoTokenException {
         return basketService.getAll(request);

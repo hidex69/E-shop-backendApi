@@ -65,6 +65,12 @@ public class ProductDAO {
         jdbcTemplate.update(sql, user_id, product_id);
     }
 
+    public void deleteFromBasket(int user_id, int product_id) {
+        String sql = "delete from basket where user_id = ? and product_id = ?";
+
+        jdbcTemplate.update(sql, user_id, product_id);
+    }
+
     public void rateProduct(int product_id, int rate) {
         String sql = "update product set rating_total = 1, rating_counter = 2 " +
                 "where id = ?";

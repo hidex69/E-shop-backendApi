@@ -26,6 +26,10 @@ public class BasketService {
         productDAO.loadToBasket(userService.getUserByRequest(request).getId(), product_id);
     }
 
+    public void removeFromBasket(int product_id, HttpServletRequest request) throws NoTokenException {
+        productDAO.deleteFromBasket(userService.getUserByRequest(request).getId(), product_id);
+    }
+
     public Set<Product> getAll(HttpServletRequest request) throws NoTokenException {
         return userEntityRepository.findById(userService.getUserByRequest(request).getId()).get().getProducts();
     }
