@@ -31,8 +31,9 @@ public class ProductController {
     private ProductService productService;
 
     @GetMapping("")
-    public List<Product> loadProducts() {
-        return productDAO.loadAllProducts();
+    public List<Product> loadProducts(@RequestParam(value = "count", defaultValue = "0") int count,
+                                      @RequestParam(value = "page", defaultValue = "0") int page) {
+        return productDAO.loadAllProducts(page, count);
     }
 
     @GetMapping("/{id}")

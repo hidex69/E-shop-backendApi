@@ -4,6 +4,8 @@ import com.eshop.demo.models.product.Product;
 import com.eshop.demo.models.product.ProductDto;
 import com.eshop.demo.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -19,10 +21,17 @@ public class ProductDAO {
     private ProductRepository productRepository;
 
 
-    public List<Product> loadAllProducts() {
+    public List<Product> loadAllProducts(int page, int count) {
 
-        return productRepository.findAll();
+        count = Math.max(count, 0);
+        page = Math.max(page, 0);
 
+        if (count == 0 && page == 0) {
+            return productRepository.findAll();
+        }
+        else {
+            return productRepository.findAll(PageRequest.of(page, count)).getContent();
+        }
     }
 
     public Product loadProduct(int id) {
