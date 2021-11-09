@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 
-
+@CrossOrigin("http://localhost:3000")
 @RestController
 @RequestMapping("/product")
 public class ProductController {
