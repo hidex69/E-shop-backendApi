@@ -1,10 +1,9 @@
 package com.eshop.demo.controller;
 
 import com.eshop.demo.DAO.ProductDAO;
+import com.eshop.demo.exceptions.NoSuchCategoryException;
 import com.eshop.demo.exceptions.NoTokenException;
-import com.eshop.demo.models.product.Product;
-import com.eshop.demo.models.product.ProductDto;
-import com.eshop.demo.models.product.RatingRequest;
+import com.eshop.demo.models.product.*;
 import com.eshop.demo.service.BasketService;
 import com.eshop.demo.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,8 +31,14 @@ public class ProductController {
 
     @GetMapping("")
     public List<Product> loadProducts(@RequestParam(value = "count", defaultValue = "0") int count,
-                                      @RequestParam(value = "page", defaultValue = "0") int page) {
-        return productDAO.loadAllProducts(page, count);
+                                      @RequestParam(value = "page", defaultValue = "0") int page,
+                                      @RequestParam(value = "category", defaultValue = "") String categoryName)
+            throws NoSuchCategoryException {
+        if (categoryName == "") {
+            return productDAO.loadAllProducts(page, count);
+        } else {
+            return productDAO.loadByCategory(categoryName);
+        }
     }
 
     @GetMapping("/{id}")

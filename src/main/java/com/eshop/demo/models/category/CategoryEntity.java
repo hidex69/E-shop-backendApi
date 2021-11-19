@@ -1,4 +1,4 @@
-package com.eshop.demo.models.product;
+package com.eshop.demo.models.category;
 
 
 import javax.persistence.*;
@@ -19,5 +19,16 @@ public class CategoryEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public CategoryEntity(String name) {
+        this.name = name;
+    }
+
+    public CategoryEntity() {
     }
 }

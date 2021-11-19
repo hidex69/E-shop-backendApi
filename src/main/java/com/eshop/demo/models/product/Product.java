@@ -1,5 +1,6 @@
 package com.eshop.demo.models.product;
 
+import com.eshop.demo.models.category.CategoryEntity;
 import com.eshop.demo.models.user.UserEntity;
 
 import javax.persistence.*;

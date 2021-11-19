@@ -1,11 +1,13 @@
 package com.eshop.demo.DAO;
 
+import com.eshop.demo.exceptions.NoSuchCategoryException;
+import com.eshop.demo.models.category.CategoryEntity;
 import com.eshop.demo.models.product.Product;
 import com.eshop.demo.models.product.ProductDto;
+import com.eshop.demo.repository.CategoryEntityRepository;
 import com.eshop.demo.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -20,6 +22,9 @@ public class ProductDAO {
     @Autowired
     private ProductRepository productRepository;
 
+    @Autowired
+    private CategoryEntityRepository categoryEntityRepository;
+
 
     public List<Product> loadAllProducts(int page, int count) {
 
@@ -28,10 +33,18 @@ public class ProductDAO {
 
         if (count == 0 && page == 0) {
             return productRepository.findAll();
-        }
-        else {
+        } else {
             return productRepository.findAll(PageRequest.of(page, count)).getContent();
         }
+    }
+
+    public List<Product> loadByCategory(String categoryName) throws NoSuchCategoryException {
+        CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
+        if (categoryEntity == null) {
+            throw  new NoSuchCategoryException("Bad request(No such category)");
+        }
+
+        return productRepository.findProductsByCategoryEntity(categoryEntity);
     }
 
     public Product loadProduct(int id) {
