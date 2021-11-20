@@ -1,15 +1,17 @@
+drop database shop;
 create database shop;
-\c shop
+
+\c shop;
 
 create table product_category (   
     id serial primary key,
-    category_name varchar(50)
+    category_name varchar(255)
 );
 
 create table product (
     id serial primary key,
-    name varchar(50),
-    shortdescription varchar(50),
+    name varchar(255),
+    shortdescription varchar(255),
     cost integer,
     rating_total integer default 0,
     rating_counter integer default 0,
@@ -18,13 +20,13 @@ create table product (
 
 create table role_table (
     id serial primary key,
-    name varchar(50)
+    name varchar(255)
 );
 
 create table user_table (
     id serial primary key,
-    login varchar(50),
-    password varchar(50),
+    login varchar(255),
+    password varchar(255),
     role_id integer references role_table
 );
 
