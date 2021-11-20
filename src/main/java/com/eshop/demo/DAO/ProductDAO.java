@@ -11,7 +11,9 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 @Repository
 public class ProductDAO {
@@ -26,25 +28,47 @@ public class ProductDAO {
     private CategoryEntityRepository categoryEntityRepository;
 
 
-    public List<Product> loadAllProducts(int page, int count) {
+    public List<Product> loadProducts(int page, int count, String category) throws NoSuchCategoryException {
 
+        List<Product> products = new ArrayList<>();
         count = Math.max(count, 0);
         page = Math.max(page, 0);
 
         if (count == 0 && page == 0) {
-            return productRepository.findAll();
+            if (category.equals("")) {
+                products =  productRepository.findAll();
+            }
+            else {
+                products = loadByCategory(category);
+            }
         } else {
-            return productRepository.findAll(PageRequest.of(page, count)).getContent();
+            if (category.equals("")) {
+                products = productRepository.findAll(PageRequest.of(page, count)).getContent();
+            }
+            else {
+                products = loadByCategoryAndPage(category, page, count);
+            }
         }
+
+        return products;
     }
 
-    public List<Product> loadByCategory(String categoryName) throws NoSuchCategoryException {
+    private List<Product> loadByCategory(String categoryName) throws NoSuchCategoryException {
         CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
         if (categoryEntity == null) {
             throw  new NoSuchCategoryException("Bad request(No such category)");
         }
 
         return productRepository.findProductsByCategoryEntity(categoryEntity);
+    }
+
+    private List<Product> loadByCategoryAndPage(String categoryName, int page, int count) throws NoSuchCategoryException {
+        CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
+        if (categoryEntity == null) {
+            throw new NoSuchCategoryException("Bad request(No such category)");
+        }
+
+        return productRepository.findProductsByCategoryEntity(categoryEntity, PageRequest.of(page, count));
     }
 
     public Product loadProduct(int id) {

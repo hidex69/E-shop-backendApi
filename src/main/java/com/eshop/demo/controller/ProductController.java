@@ -34,11 +34,7 @@ public class ProductController {
                                       @RequestParam(value = "page", defaultValue = "0") int page,
                                       @RequestParam(value = "category", defaultValue = "") String categoryName)
             throws NoSuchCategoryException {
-        if (categoryName == "") {
-            return productDAO.loadAllProducts(page, count);
-        } else {
-            return productDAO.loadByCategory(categoryName);
-        }
+        return productDAO.loadProducts(page, count, categoryName);
     }
 
     @GetMapping("/{id}")
