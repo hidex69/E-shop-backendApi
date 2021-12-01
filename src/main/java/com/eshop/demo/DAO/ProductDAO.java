@@ -7,6 +7,7 @@ import com.eshop.demo.models.product.ProductDto;
 import com.eshop.demo.repository.CategoryEntityRepository;
 import com.eshop.demo.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -27,8 +28,8 @@ public class ProductDAO {
     @Autowired
     private CategoryEntityRepository categoryEntityRepository;
 
-
-    public List<Product> loadProducts(int page, int count, String category) throws NoSuchCategoryException {
+    public List<Product> loadProducts(int page, int count, String category, String query,
+                                      String sort, String order) throws NoSuchCategoryException {
 
         List<Product> products = new ArrayList<>();
         count = Math.max(count, 0);
@@ -36,40 +37,39 @@ public class ProductDAO {
 
         if (count == 0 && page == 0) {
             if (category.equals("")) {
-                products =  productRepository.findAll();
+                if (sort.equals("")) {
+                    products = productRepository.findProductsByNameContainingIgnoreCase(query);
+                } else {
+                    products = loadWithSort(query, sort, order);
+                }
             }
             else {
-                products = loadByCategory(category);
+                if (sort.equals("")) {
+                    products = loadByCategory(category, query);
+                } else {
+                    products = loadWithSortAndCategory(query, sort, order, category);
+                }
             }
         } else {
             if (category.equals("")) {
-                products = productRepository.findAll(PageRequest.of(page, count)).getContent();
+                if (sort.equals("")) {
+                    products = productRepository.findProductsByNameContainingIgnoreCase(query, PageRequest.of(page, count));
+                } else {
+                    products = loadWithSortAndPageable(query, sort, order, page, count);
+                }
             }
             else {
-                products = loadByCategoryAndPage(category, page, count);
+                if ((sort.equals(""))) {
+                    products = loadByCategoryAndPage(category, page, count, query);
+                } else {
+                    products = loadByCategoryAndPageWithSort(query, page, count, sort, order, category);
+                }
             }
         }
 
         return products;
     }
 
-    private List<Product> loadByCategory(String categoryName) throws NoSuchCategoryException {
-        CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
-        if (categoryEntity == null) {
-            throw  new NoSuchCategoryException("Bad request(No such category)");
-        }
-
-        return productRepository.findProductsByCategoryEntity(categoryEntity);
-    }
-
-    private List<Product> loadByCategoryAndPage(String categoryName, int page, int count) throws NoSuchCategoryException {
-        CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
-        if (categoryEntity == null) {
-            throw new NoSuchCategoryException("Bad request(No such category)");
-        }
-
-        return productRepository.findProductsByCategoryEntity(categoryEntity, PageRequest.of(page, count));
-    }
 
     public Product loadProduct(int id) {
 
@@ -115,4 +115,95 @@ public class ProductDAO {
         jdbcTemplate.update(sql, product_id);
     }
 
+    private List<Product> loadByCategory(String categoryName, String query) throws NoSuchCategoryException {
+        CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
+        if (categoryEntity == null) {
+            throw  new NoSuchCategoryException("Bad request(No such category)");
+        }
+
+        return productRepository.findProductsByCategoryEntityAndNameContainingIgnoreCase(categoryEntity, query);
+    }
+
+    private List<Product> loadWithSort(String query, String sort, String order) {
+        List<Product> products = new ArrayList<>();
+        switch (sort.toLowerCase()) {
+            case "cost":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByCostDesc(query) :
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByCostAsc(query);
+                break;
+            case "rating":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalDesc(query) :
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalAsc(query);
+                break;
+        }
+        return products;
+    }
+
+
+    private List<Product> loadWithSortAndPageable(String query, String sort, String order, int page, int count) {
+        List<Product> products = new ArrayList<>();
+        switch (sort.toLowerCase()) {
+            case "cost":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByCostDesc(query, PageRequest.of(page, count)) :
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByCostAsc(query, PageRequest.of(page, count));
+                break;
+            case "rating":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalDesc(query, PageRequest.of(page, count)) :
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalAsc(query, PageRequest.of(page, count));
+                break;
+        }
+        return products;
+    }
+
+    private List<Product> loadWithSortAndCategory(String query, String sort, String order, String category) {
+        List<Product> products = new ArrayList<>();
+        CategoryEntity categoryEntity = categoryEntityRepository.findByName(category.toUpperCase());
+        switch (sort.toLowerCase()) {
+            case "cost":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository
+                                .findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostDesc(query, categoryEntity) :
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostAsc(query, categoryEntity);
+                break;
+            case "rating":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalDesc(query, categoryEntity) :
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalAsc(query, categoryEntity);
+                break;
+        }
+        return products;
+    }
+
+    private List<Product> loadByCategoryAndPage(String categoryName, int page, int count, String query) throws NoSuchCategoryException {
+        CategoryEntity categoryEntity = categoryEntityRepository.findByName(categoryName.toUpperCase());
+        if (categoryEntity == null) {
+            throw new NoSuchCategoryException("Bad request(No such category)");
+        }
+
+        return productRepository.findProductsByCategoryEntityAndNameContainingIgnoreCase(categoryEntity,
+                PageRequest.of(page, count), query);
+    }
+
+    private List<Product> loadByCategoryAndPageWithSort(String query, int page, int count, String sort, String order, String category) {
+        List<Product> products = new ArrayList<>();
+        CategoryEntity categoryEntity = categoryEntityRepository.findByName(category.toUpperCase());
+        switch (sort.toLowerCase()) {
+            case "cost":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository
+                                .findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostDesc(query, categoryEntity, PageRequest.of(page, count)) :
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostAsc(query, categoryEntity, PageRequest.of(page, count));
+                break;
+            case "rating":
+                products = order.toLowerCase().equals("desc") ?
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalDesc(query, categoryEntity, PageRequest.of(page, count)) :
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalAsc(query, categoryEntity, PageRequest.of(page, count));
+                break;
+        }
+        return products;
+    }
 }

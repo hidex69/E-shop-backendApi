@@ -32,9 +32,12 @@ public class ProductController {
     @GetMapping("")
     public List<Product> loadProducts(@RequestParam(value = "count", defaultValue = "0") int count,
                                       @RequestParam(value = "page", defaultValue = "0") int page,
-                                      @RequestParam(value = "category", defaultValue = "") String categoryName)
+                                      @RequestParam(value = "category", defaultValue = "") String categoryName,
+                                      @RequestParam(value = "order", defaultValue = "") String order,
+                                      @RequestParam(value = "sort", defaultValue = "") String sort,
+                                      @RequestParam(value = "query", defaultValue = "") String query)
             throws NoSuchCategoryException {
-        return productDAO.loadProducts(page, count, categoryName);
+        return productDAO.loadProducts(page, count, categoryName, query, sort, order);
     }
 
     @GetMapping("/{id}")

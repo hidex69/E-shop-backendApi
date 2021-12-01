@@ -24,8 +24,8 @@ public class Product {
     @Column
     private Integer cost;
 
-    @Column
-    private Integer rating_total;
+    @Column(name = "rating_total")
+    private Integer ratingTotal;
 
     @Column
     private Integer rating_counter;
@@ -72,11 +72,11 @@ public class Product {
         this.categoryEntity = categoryEntity;
     }
 
-    public Product(String name, String shortdescription, Integer cost, Integer rating_total, Integer rating_counter, CategoryEntity categoryEntity) {
+    public Product(String name, String shortdescription, Integer cost, Integer ratingTotal, Integer rating_counter, CategoryEntity categoryEntity) {
         this.name = name;
         this.shortdescription = shortdescription;
         this.cost = cost;
-        this.rating_total = rating_total;
+        this.ratingTotal = ratingTotal;
         this.rating_counter = rating_counter;
         this.categoryEntity = categoryEntity;
     }
@@ -89,12 +89,12 @@ public class Product {
         this.id = id;
     }
 
-    public Integer getRating_total() {
-        return rating_total;
+    public Integer getRatingTotal() {
+        return ratingTotal;
     }
 
-    public void setRating_total(Integer rating_total) {
-        this.rating_total = rating_total;
+    public void setRatingTotal(Integer rating_total) {
+        this.ratingTotal = rating_total;
     }
 
     public Integer getRating_counter() {
