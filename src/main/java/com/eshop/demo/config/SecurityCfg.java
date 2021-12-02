@@ -27,10 +27,9 @@ public class SecurityCfg extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers( "/auth", "/register", "/product/", "/product/*").permitAll()
-                .antMatchers(HttpMethod.POST, "/admin/*",
-                        "/product/update/**", "/product/delete/**", "/product/add/**").hasRole("ADMIN")
-                .antMatchers(HttpMethod.GET, "/product/basket/**").hasRole("USER")
+                .antMatchers( "/auth", "/register", "/product", "/product/*").permitAll()
+                .antMatchers("**").hasRole("ADMIN")
+                .antMatchers( "/product/basket/**", "/product/rate").hasRole("USER")
                 .and()
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
