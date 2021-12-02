@@ -28,8 +28,8 @@ public class SecurityCfg extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers( "/auth", "/register", "/product", "/product/*", "/check").permitAll()
-                .antMatchers("**").hasRole("ADMIN")
                 .antMatchers( "/product/basket/**", "/product/rate").hasRole("USER")
+                .antMatchers("**").hasRole("ADMIN")
                 .and()
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
