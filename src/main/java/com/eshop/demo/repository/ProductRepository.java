@@ -18,23 +18,23 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     List<Product> findProductsByNameContainingIgnoreCaseOrderByCostAsc(String name);
     List<Product> findProductsByNameContainingIgnoreCaseOrderByCostDesc(String name);
 
-    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingTotalAsc(String name);
-    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingTotalDesc(String name);
+    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingCounterAsc(String name);
+    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingCounterDesc(String name);
 
     List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostAsc(String name,
                                                                                         CategoryEntity categoryEntity);
     List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostDesc(String name,
                                                                                         CategoryEntity categoryEntity);
-    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalAsc(String name,
+    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterAsc(String name,
                                                                                                 CategoryEntity categoryEntity);
-    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalDesc(String name,
+    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterDesc(String name,
                                                                                                 CategoryEntity categoryEntity);
 
     List<Product> findProductsByNameContainingIgnoreCaseOrderByCostAsc(String name, Pageable pageable);
     List<Product> findProductsByNameContainingIgnoreCaseOrderByCostDesc(String name, Pageable pageable);
 
-    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingTotalAsc(String name, Pageable pageable);
-    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingTotalDesc(String name, Pageable pageable);
+    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingCounterAsc(String name, Pageable pageable);
+    List<Product> findProductsByNameContainingIgnoreCaseOrderByRatingCounterDesc(String name, Pageable pageable);
 
     List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostAsc(String name,
                                                                                         CategoryEntity categoryEntity,
@@ -42,10 +42,10 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
     List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByCostDesc(String name,
                                                                                          CategoryEntity categoryEntity,
                                                                                          Pageable pageable);
-    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalAsc(String name,
+    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterAsc(String name,
                                                                                                CategoryEntity categoryEntity,
                                                                                                Pageable pageable);
-    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalDesc(String name,
+    List<Product> findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterDesc(String name,
                                                                                                 CategoryEntity categoryEntity,
                                                                                                 Pageable pageable);
 
