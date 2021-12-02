@@ -27,8 +27,8 @@ public class Product {
     @Column(name = "rating_total")
     private Integer ratingTotal;
 
-    @Column
-    private Integer rating_counter;
+    @Column(name = "rating_counter")
+    private Integer ratingCounter;
 
     @ManyToOne
     @JoinColumn(name = "category_id")
@@ -77,7 +77,7 @@ public class Product {
         this.shortdescription = shortdescription;
         this.cost = cost;
         this.ratingTotal = ratingTotal;
-        this.rating_counter = rating_counter;
+        this.ratingCounter = ratingCounter;
         this.categoryEntity = categoryEntity;
     }
 
@@ -97,11 +97,11 @@ public class Product {
         this.ratingTotal = rating_total;
     }
 
-    public Integer getRating_counter() {
-        return rating_counter;
+    public Integer getRatingCounter() {
+        return ratingCounter;
     }
 
-    public void setRating_counter(Integer rating_counter) {
-        this.rating_counter = rating_counter;
+    public void setRatingCounter(Integer ratingCounter) {
+        this.ratingCounter = ratingCounter;
     }
 }

@@ -134,8 +134,8 @@ public class ProductDAO {
                 break;
             case "rating":
                 products = order.toLowerCase().equals("desc") ?
-                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalDesc(query) :
-                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalAsc(query);
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingCounterDesc(query) :
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingCounterAsc(query);
                 break;
         }
         return products;
@@ -152,8 +152,8 @@ public class ProductDAO {
                 break;
             case "rating":
                 products = order.toLowerCase().equals("desc") ?
-                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalDesc(query, PageRequest.of(page, count)) :
-                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingTotalAsc(query, PageRequest.of(page, count));
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingCounterDesc(query, PageRequest.of(page, count)) :
+                        productRepository.findProductsByNameContainingIgnoreCaseOrderByRatingCounterAsc(query, PageRequest.of(page, count));
                 break;
         }
         return products;
@@ -171,8 +171,8 @@ public class ProductDAO {
                 break;
             case "rating":
                 products = order.toLowerCase().equals("desc") ?
-                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalDesc(query, categoryEntity) :
-                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalAsc(query, categoryEntity);
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterDesc(query, categoryEntity) :
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterAsc(query, categoryEntity);
                 break;
         }
         return products;
@@ -200,8 +200,8 @@ public class ProductDAO {
                 break;
             case "rating":
                 products = order.toLowerCase().equals("desc") ?
-                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalDesc(query, categoryEntity, PageRequest.of(page, count)) :
-                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingTotalAsc(query, categoryEntity, PageRequest.of(page, count));
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterDesc(query, categoryEntity, PageRequest.of(page, count)) :
+                        productRepository.findProductsByNameContainingIgnoreCaseAndCategoryEntityOrderByRatingCounterAsc(query, categoryEntity, PageRequest.of(page, count));
                 break;
         }
         return products;
