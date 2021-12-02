@@ -31,7 +31,7 @@ create table user_table (
 );
 
 create table basket (
-    user_id serial primary key,
+    user_id integer references user_table,
     product_id integer references product
 );
 

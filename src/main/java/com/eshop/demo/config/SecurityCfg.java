@@ -27,7 +27,7 @@ public class SecurityCfg extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers( "/auth", "/register", "/product", "/product/*", "/check").permitAll()
+                .antMatchers( "/auth", "/register", "/product", "/product/**", "/check").permitAll()
                 .antMatchers( "/product/basket/**", "/product/rate").hasRole("USER")
                 .antMatchers("**").hasRole("ADMIN")
                 .and()
