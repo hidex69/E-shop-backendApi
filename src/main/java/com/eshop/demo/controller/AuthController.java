@@ -5,7 +5,9 @@ import com.eshop.demo.config.jwt.JwtProvider;
 import com.eshop.demo.models.auth.AuthRequest;
 import com.eshop.demo.models.auth.AuthResponse;
 import com.eshop.demo.models.auth.RegistrationRequest;
+import com.eshop.demo.models.user.UserDto;
 import com.eshop.demo.models.user.UserEntity;
+import com.eshop.demo.repository.UserEntityRepository;
 import com.eshop.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -19,6 +21,9 @@ public class AuthController {
 
     @Autowired
     private JwtProvider jwtProvider;
+
+    @Autowired
+    private UserEntityRepository userEntityRepository;
 
     private AuthenticationManager authenticationManager;
 
@@ -41,7 +46,18 @@ public class AuthController {
     }
 
     @GetMapping("/check")
-    public Boolean check(@RequestParam String token) {
-        return jwtProvider.validateToken(token);
+    public UserDto check(@RequestParam String token) {
+        UserDto user = new UserDto();
+        UserEntity userEntity = userEntityRepository.findByLogin(jwtProvider.getLoginFromToken(token));
+
+        if (!jwtProvider.validateToken(token)) {
+            user.setValid(false);
+        } else {
+            user.setValid(true);
+            user.setLogin(userEntity.getLogin());
+            user.setRoleEntity(userEntity.getRoleEntity());
+        }
+
+        return user;
     }
 }
