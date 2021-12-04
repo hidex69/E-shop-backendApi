@@ -61,1603 +61,203 @@ values
         75,
         1
     ),
-    (
-        'naruto filler #1',
-        'esche odna poleznaya seriya #1PogChamp',
-        0,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #2',
-        'esche odna poleznaya seriya #2PogChamp',
-        1,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #3',
-        'esche odna poleznaya seriya #3PogChamp',
-        2,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #4',
-        'esche odna poleznaya seriya #4PogChamp',
-        3,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #5',
-        'esche odna poleznaya seriya #5PogChamp',
-        4,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #6',
-        'esche odna poleznaya seriya #6PogChamp',
-        5,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #7',
-        'esche odna poleznaya seriya #7PogChamp',
-        6,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #8',
-        'esche odna poleznaya seriya #8PogChamp',
-        7,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #9',
-        'esche odna poleznaya seriya #9PogChamp',
-        8,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #10',
-        'esche odna poleznaya seriya #10PogChamp',
-        9,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #11',
-        'esche odna poleznaya seriya #11PogChamp',
-        10,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #12',
-        'esche odna poleznaya seriya #12PogChamp',
-        11,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #13',
-        'esche odna poleznaya seriya #13PogChamp',
-        12,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #14',
-        'esche odna poleznaya seriya #14PogChamp',
-        13,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #15',
-        'esche odna poleznaya seriya #15PogChamp',
-        14,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #16',
-        'esche odna poleznaya seriya #16PogChamp',
-        15,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #17',
-        'esche odna poleznaya seriya #17PogChamp',
-        16,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #18',
-        'esche odna poleznaya seriya #18PogChamp',
-        17,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #19',
-        'esche odna poleznaya seriya #19PogChamp',
-        18,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #20',
-        'esche odna poleznaya seriya #20PogChamp',
-        19,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #21',
-        'esche odna poleznaya seriya #21PogChamp',
-        20,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #22',
-        'esche odna poleznaya seriya #22PogChamp',
-        21,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #23',
-        'esche odna poleznaya seriya #23PogChamp',
-        22,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #24',
-        'esche odna poleznaya seriya #24PogChamp',
-        23,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #25',
-        'esche odna poleznaya seriya #25PogChamp',
-        24,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #26',
-        'esche odna poleznaya seriya #26PogChamp',
-        25,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #27',
-        'esche odna poleznaya seriya #27PogChamp',
-        26,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #28',
-        'esche odna poleznaya seriya #28PogChamp',
-        27,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #29',
-        'esche odna poleznaya seriya #29PogChamp',
-        28,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #30',
-        'esche odna poleznaya seriya #30PogChamp',
-        29,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #31',
-        'esche odna poleznaya seriya #31PogChamp',
-        30,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #32',
-        'esche odna poleznaya seriya #32PogChamp',
-        31,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #33',
-        'esche odna poleznaya seriya #33PogChamp',
-        32,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #34',
-        'esche odna poleznaya seriya #34PogChamp',
-        33,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #35',
-        'esche odna poleznaya seriya #35PogChamp',
-        34,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #36',
-        'esche odna poleznaya seriya #36PogChamp',
-        35,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #37',
-        'esche odna poleznaya seriya #37PogChamp',
-        36,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #38',
-        'esche odna poleznaya seriya #38PogChamp',
-        37,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #39',
-        'esche odna poleznaya seriya #39PogChamp',
-        38,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #40',
-        'esche odna poleznaya seriya #40PogChamp',
-        39,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #41',
-        'esche odna poleznaya seriya #41PogChamp',
-        40,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #42',
-        'esche odna poleznaya seriya #42PogChamp',
-        41,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #43',
-        'esche odna poleznaya seriya #43PogChamp',
-        42,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #44',
-        'esche odna poleznaya seriya #44PogChamp',
-        43,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #45',
-        'esche odna poleznaya seriya #45PogChamp',
-        44,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #46',
-        'esche odna poleznaya seriya #46PogChamp',
-        45,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #47',
-        'esche odna poleznaya seriya #47PogChamp',
-        46,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #48',
-        'esche odna poleznaya seriya #48PogChamp',
-        47,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #49',
-        'esche odna poleznaya seriya #49PogChamp',
-        48,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #50',
-        'esche odna poleznaya seriya #50PogChamp',
-        49,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #51',
-        'esche odna poleznaya seriya #51PogChamp',
-        50,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #52',
-        'esche odna poleznaya seriya #52PogChamp',
-        51,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #53',
-        'esche odna poleznaya seriya #53PogChamp',
-        52,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #54',
-        'esche odna poleznaya seriya #54PogChamp',
-        53,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #55',
-        'esche odna poleznaya seriya #55PogChamp',
-        54,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #56',
-        'esche odna poleznaya seriya #56PogChamp',
-        55,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #57',
-        'esche odna poleznaya seriya #57PogChamp',
-        56,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #58',
-        'esche odna poleznaya seriya #58PogChamp',
-        57,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #59',
-        'esche odna poleznaya seriya #59PogChamp',
-        58,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #60',
-        'esche odna poleznaya seriya #60PogChamp',
-        59,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #61',
-        'esche odna poleznaya seriya #61PogChamp',
-        60,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #62',
-        'esche odna poleznaya seriya #62PogChamp',
-        61,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #63',
-        'esche odna poleznaya seriya #63PogChamp',
-        62,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #64',
-        'esche odna poleznaya seriya #64PogChamp',
-        63,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #65',
-        'esche odna poleznaya seriya #65PogChamp',
-        64,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #66',
-        'esche odna poleznaya seriya #66PogChamp',
-        65,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #67',
-        'esche odna poleznaya seriya #67PogChamp',
-        66,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #68',
-        'esche odna poleznaya seriya #68PogChamp',
-        67,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #69',
-        'esche odna poleznaya seriya #69PogChamp',
-        68,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #70',
-        'esche odna poleznaya seriya #70PogChamp',
-        69,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #71',
-        'esche odna poleznaya seriya #71PogChamp',
-        70,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #72',
-        'esche odna poleznaya seriya #72PogChamp',
-        71,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #73',
-        'esche odna poleznaya seriya #73PogChamp',
-        72,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #74',
-        'esche odna poleznaya seriya #74PogChamp',
-        73,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #75',
-        'esche odna poleznaya seriya #75PogChamp',
-        74,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #76',
-        'esche odna poleznaya seriya #76PogChamp',
-        75,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #77',
-        'esche odna poleznaya seriya #77PogChamp',
-        76,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #78',
-        'esche odna poleznaya seriya #78PogChamp',
-        77,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #79',
-        'esche odna poleznaya seriya #79PogChamp',
-        78,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #80',
-        'esche odna poleznaya seriya #80PogChamp',
-        79,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #81',
-        'esche odna poleznaya seriya #81PogChamp',
-        80,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #82',
-        'esche odna poleznaya seriya #82PogChamp',
-        81,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #83',
-        'esche odna poleznaya seriya #83PogChamp',
-        82,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #84',
-        'esche odna poleznaya seriya #84PogChamp',
-        83,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #85',
-        'esche odna poleznaya seriya #85PogChamp',
-        84,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #86',
-        'esche odna poleznaya seriya #86PogChamp',
-        85,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #87',
-        'esche odna poleznaya seriya #87PogChamp',
-        86,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #88',
-        'esche odna poleznaya seriya #88PogChamp',
-        87,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #89',
-        'esche odna poleznaya seriya #89PogChamp',
-        88,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #90',
-        'esche odna poleznaya seriya #90PogChamp',
-        89,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #91',
-        'esche odna poleznaya seriya #91PogChamp',
-        90,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #92',
-        'esche odna poleznaya seriya #92PogChamp',
-        91,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #93',
-        'esche odna poleznaya seriya #93PogChamp',
-        92,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #94',
-        'esche odna poleznaya seriya #94PogChamp',
-        93,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #95',
-        'esche odna poleznaya seriya #95PogChamp',
-        94,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #96',
-        'esche odna poleznaya seriya #96PogChamp',
-        95,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #97',
-        'esche odna poleznaya seriya #97PogChamp',
-        96,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #98',
-        'esche odna poleznaya seriya #98PogChamp',
-        97,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #99',
-        'esche odna poleznaya seriya #99PogChamp',
-        98,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #100',
-        'esche odna poleznaya seriya #100PogChamp',
-        99,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #101',
-        'esche odna poleznaya seriya #101PogChamp',
-        100,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #102',
-        'esche odna poleznaya seriya #102PogChamp',
-        101,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #103',
-        'esche odna poleznaya seriya #103PogChamp',
-        102,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #104',
-        'esche odna poleznaya seriya #104PogChamp',
-        103,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #105',
-        'esche odna poleznaya seriya #105PogChamp',
-        104,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #106',
-        'esche odna poleznaya seriya #106PogChamp',
-        105,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #107',
-        'esche odna poleznaya seriya #107PogChamp',
-        106,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #108',
-        'esche odna poleznaya seriya #108PogChamp',
-        107,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #109',
-        'esche odna poleznaya seriya #109PogChamp',
-        108,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #110',
-        'esche odna poleznaya seriya #110PogChamp',
-        109,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #111',
-        'esche odna poleznaya seriya #111PogChamp',
-        110,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #112',
-        'esche odna poleznaya seriya #112PogChamp',
-        111,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #113',
-        'esche odna poleznaya seriya #113PogChamp',
-        112,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #114',
-        'esche odna poleznaya seriya #114PogChamp',
-        113,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #115',
-        'esche odna poleznaya seriya #115PogChamp',
-        114,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #116',
-        'esche odna poleznaya seriya #116PogChamp',
-        115,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #117',
-        'esche odna poleznaya seriya #117PogChamp',
-        116,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #118',
-        'esche odna poleznaya seriya #118PogChamp',
-        117,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #119',
-        'esche odna poleznaya seriya #119PogChamp',
-        118,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #120',
-        'esche odna poleznaya seriya #120PogChamp',
-        119,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #121',
-        'esche odna poleznaya seriya #121PogChamp',
-        120,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #122',
-        'esche odna poleznaya seriya #122PogChamp',
-        121,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #123',
-        'esche odna poleznaya seriya #123PogChamp',
-        122,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #124',
-        'esche odna poleznaya seriya #124PogChamp',
-        123,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #125',
-        'esche odna poleznaya seriya #125PogChamp',
-        124,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #126',
-        'esche odna poleznaya seriya #126PogChamp',
-        125,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #127',
-        'esche odna poleznaya seriya #127PogChamp',
-        126,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #128',
-        'esche odna poleznaya seriya #128PogChamp',
-        127,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #129',
-        'esche odna poleznaya seriya #129PogChamp',
-        128,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #130',
-        'esche odna poleznaya seriya #130PogChamp',
-        129,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #131',
-        'esche odna poleznaya seriya #131PogChamp',
-        130,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #132',
-        'esche odna poleznaya seriya #132PogChamp',
-        131,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #133',
-        'esche odna poleznaya seriya #133PogChamp',
-        132,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #134',
-        'esche odna poleznaya seriya #134PogChamp',
-        133,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #135',
-        'esche odna poleznaya seriya #135PogChamp',
-        134,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #136',
-        'esche odna poleznaya seriya #136PogChamp',
-        135,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #137',
-        'esche odna poleznaya seriya #137PogChamp',
-        136,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #138',
-        'esche odna poleznaya seriya #138PogChamp',
-        137,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #139',
-        'esche odna poleznaya seriya #139PogChamp',
-        138,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #140',
-        'esche odna poleznaya seriya #140PogChamp',
-        139,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #141',
-        'esche odna poleznaya seriya #141PogChamp',
-        140,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #142',
-        'esche odna poleznaya seriya #142PogChamp',
-        141,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #143',
-        'esche odna poleznaya seriya #143PogChamp',
-        142,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #144',
-        'esche odna poleznaya seriya #144PogChamp',
-        143,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #145',
-        'esche odna poleznaya seriya #145PogChamp',
-        144,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #146',
-        'esche odna poleznaya seriya #146PogChamp',
-        145,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #147',
-        'esche odna poleznaya seriya #147PogChamp',
-        146,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #148',
-        'esche odna poleznaya seriya #148PogChamp',
-        147,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #149',
-        'esche odna poleznaya seriya #149PogChamp',
-        148,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #150',
-        'esche odna poleznaya seriya #150PogChamp',
-        149,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #151',
-        'esche odna poleznaya seriya #151PogChamp',
-        150,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #152',
-        'esche odna poleznaya seriya #152PogChamp',
-        151,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #153',
-        'esche odna poleznaya seriya #153PogChamp',
-        152,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #154',
-        'esche odna poleznaya seriya #154PogChamp',
-        153,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #155',
-        'esche odna poleznaya seriya #155PogChamp',
-        154,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #156',
-        'esche odna poleznaya seriya #156PogChamp',
-        155,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #157',
-        'esche odna poleznaya seriya #157PogChamp',
-        156,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #158',
-        'esche odna poleznaya seriya #158PogChamp',
-        157,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #159',
-        'esche odna poleznaya seriya #159PogChamp',
-        158,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #160',
-        'esche odna poleznaya seriya #160PogChamp',
-        159,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #161',
-        'esche odna poleznaya seriya #161PogChamp',
-        160,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #162',
-        'esche odna poleznaya seriya #162PogChamp',
-        161,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #163',
-        'esche odna poleznaya seriya #163PogChamp',
-        162,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #164',
-        'esche odna poleznaya seriya #164PogChamp',
-        163,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #165',
-        'esche odna poleznaya seriya #165PogChamp',
-        164,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #166',
-        'esche odna poleznaya seriya #166PogChamp',
-        165,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #167',
-        'esche odna poleznaya seriya #167PogChamp',
-        166,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #168',
-        'esche odna poleznaya seriya #168PogChamp',
-        167,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #169',
-        'esche odna poleznaya seriya #169PogChamp',
-        168,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #170',
-        'esche odna poleznaya seriya #170PogChamp',
-        169,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #171',
-        'esche odna poleznaya seriya #171PogChamp',
-        170,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #172',
-        'esche odna poleznaya seriya #172PogChamp',
-        171,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #173',
-        'esche odna poleznaya seriya #173PogChamp',
-        172,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #174',
-        'esche odna poleznaya seriya #174PogChamp',
-        173,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #175',
-        'esche odna poleznaya seriya #175PogChamp',
-        174,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #176',
-        'esche odna poleznaya seriya #176PogChamp',
-        175,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #177',
-        'esche odna poleznaya seriya #177PogChamp',
-        176,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #178',
-        'esche odna poleznaya seriya #178PogChamp',
-        177,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #179',
-        'esche odna poleznaya seriya #179PogChamp',
-        178,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #180',
-        'esche odna poleznaya seriya #180PogChamp',
-        179,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #181',
-        'esche odna poleznaya seriya #181PogChamp',
-        180,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #182',
-        'esche odna poleznaya seriya #182PogChamp',
-        181,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #183',
-        'esche odna poleznaya seriya #183PogChamp',
-        182,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #184',
-        'esche odna poleznaya seriya #184PogChamp',
-        183,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #185',
-        'esche odna poleznaya seriya #185PogChamp',
-        184,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #186',
-        'esche odna poleznaya seriya #186PogChamp',
-        185,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #187',
-        'esche odna poleznaya seriya #187PogChamp',
-        186,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #188',
-        'esche odna poleznaya seriya #188PogChamp',
-        187,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #189',
-        'esche odna poleznaya seriya #189PogChamp',
-        188,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #190',
-        'esche odna poleznaya seriya #190PogChamp',
-        189,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #191',
-        'esche odna poleznaya seriya #191PogChamp',
-        190,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #192',
-        'esche odna poleznaya seriya #192PogChamp',
-        191,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #193',
-        'esche odna poleznaya seriya #193PogChamp',
-        192,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #194',
-        'esche odna poleznaya seriya #194PogChamp',
-        193,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #195',
-        'esche odna poleznaya seriya #195PogChamp',
-        194,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #196',
-        'esche odna poleznaya seriya #196PogChamp',
-        195,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #197',
-        'esche odna poleznaya seriya #197PogChamp',
-        196,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #198',
-        'esche odna poleznaya seriya #198PogChamp',
-        197,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #199',
-        'esche odna poleznaya seriya #199PogChamp',
-        198,
-        100,
-        20,
-        1
-    ),
-    (
-        'naruto filler #200',
-        'esche odna poleznaya seriya #200PogChamp',
-        199,
-        100,
-        20,
-        1
-    );
+    ('Смартфон #1', 'Android, экран 6.1" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 0, 100, 20, 1),
+    ('Смартфон #2', 'Android, экран 6.2" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 1, 100, 20, 1),
+    ('Смартфон #3', 'Android, экран 6.3" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 2, 100, 20, 1),
+    ('Смартфон #4', 'Android, экран 6.4" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 3, 100, 20, 1),
+    ('Смартфон #5', 'Android, экран 6.5" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 4, 100, 20, 1),
+    ('Смартфон #6', 'Android, экран 6.6" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 5, 100, 20, 1),
+    ('Смартфон #7', 'Android, экран 6.7" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 6, 100, 20, 1),
+    ('Смартфон #8', 'Android, экран 6.8" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 7, 100, 20, 1),
+    ('Смартфон #9', 'Android, экран 6.9" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 8, 100, 20, 1),
+    ('Смартфон #10', 'Android, экран 6.10" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 9, 100, 20, 1),
+    ('Смартфон #11', 'Android, экран 6.11" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 10, 100, 20, 1),
+    ('Смартфон #12', 'Android, экран 6.12" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 11, 100, 20, 1),
+    ('Смартфон #13', 'Android, экран 6.13" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 12, 100, 20, 1),
+    ('Смартфон #14', 'Android, экран 6.14" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 13, 100, 20, 1),
+    ('Смартфон #15', 'Android, экран 6.15" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 14, 100, 20, 1),
+    ('Смартфон #16', 'Android, экран 6.16" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 15, 100, 20, 1),
+    ('Смартфон #17', 'Android, экран 6.17" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 16, 100, 20, 1),
+    ('Смартфон #18', 'Android, экран 6.18" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 17, 100, 20, 1),
+    ('Смартфон #19', 'Android, экран 6.19" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 18, 100, 20, 1),
+    ('Смартфон #20', 'Android, экран 6.20" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 19, 100, 20, 1),
+    ('Смартфон #21', 'Android, экран 6.21" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 20, 100, 20, 1),
+    ('Смартфон #22', 'Android, экран 6.22" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 21, 100, 20, 1),
+    ('Смартфон #23', 'Android, экран 6.23" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 22, 100, 20, 1),
+    ('Смартфон #24', 'Android, экран 6.24" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 23, 100, 20, 1),
+    ('Смартфон #25', 'Android, экран 6.25" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 24, 100, 20, 1),
+    ('Смартфон #26', 'Android, экран 6.26" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 25, 100, 20, 1),
+    ('Смартфон #27', 'Android, экран 6.27" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 26, 100, 20, 1),
+    ('Смартфон #28', 'Android, экран 6.28" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 27, 100, 20, 1),
+    ('Смартфон #29', 'Android, экран 6.29" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 28, 100, 20, 1),
+    ('Смартфон #30', 'Android, экран 6.30" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 29, 100, 20, 1),
+    ('Смартфон #31', 'Android, экран 6.31" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 30, 100, 20, 1),
+    ('Смартфон #32', 'Android, экран 6.32" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 31, 100, 20, 1),
+    ('Смартфон #33', 'Android, экран 6.33" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 32, 100, 20, 1),
+    ('Смартфон #34', 'Android, экран 6.34" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 33, 100, 20, 1),
+    ('Смартфон #35', 'Android, экран 6.35" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 34, 100, 20, 1),
+    ('Смартфон #36', 'Android, экран 6.36" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 35, 100, 20, 1),
+    ('Смартфон #37', 'Android, экран 6.37" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 36, 100, 20, 1),
+    ('Смартфон #38', 'Android, экран 6.38" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 37, 100, 20, 1),
+    ('Смартфон #39', 'Android, экран 6.39" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 38, 100, 20, 1),
+    ('Смартфон #40', 'Android, экран 6.40" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 39, 100, 20, 1),
+    ('Смартфон #41', 'Android, экран 6.41" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 40, 100, 20, 1),
+    ('Смартфон #42', 'Android, экран 6.42" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 41, 100, 20, 1),
+    ('Смартфон #43', 'Android, экран 6.43" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 42, 100, 20, 1),
+    ('Смартфон #44', 'Android, экран 6.44" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 43, 100, 20, 1),
+    ('Смартфон #45', 'Android, экран 6.45" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 44, 100, 20, 1),
+    ('Смартфон #46', 'Android, экран 6.46" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 45, 100, 20, 1),
+    ('Смартфон #47', 'Android, экран 6.47" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 46, 100, 20, 1),
+    ('Смартфон #48', 'Android, экран 6.48" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 47, 100, 20, 1),
+    ('Смартфон #49', 'Android, экран 6.49" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 48, 100, 20, 1),
+    ('Смартфон #50', 'Android, экран 6.50" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 49, 100, 20, 1),
+    ('Смартфон #51', 'Android, экран 6.51" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 50, 100, 20, 1),
+    ('Смартфон #52', 'Android, экран 6.52" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 51, 100, 20, 1),
+    ('Смартфон #53', 'Android, экран 6.53" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 52, 100, 20, 1),
+    ('Смартфон #54', 'Android, экран 6.54" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 53, 100, 20, 1),
+    ('Смартфон #55', 'Android, экран 6.55" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 54, 100, 20, 1),
+    ('Смартфон #56', 'Android, экран 6.56" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 55, 100, 20, 1),
+    ('Смартфон #57', 'Android, экран 6.57" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 56, 100, 20, 1),
+    ('Смартфон #58', 'Android, экран 6.58" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 57, 100, 20, 1),
+    ('Смартфон #59', 'Android, экран 6.59" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 58, 100, 20, 1),
+    ('Смартфон #60', 'Android, экран 6.60" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 59, 100, 20, 1),
+    ('Смартфон #61', 'Android, экран 6.61" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 60, 100, 20, 1),
+    ('Смартфон #62', 'Android, экран 6.62" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 61, 100, 20, 1),
+    ('Смартфон #63', 'Android, экран 6.63" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 62, 100, 20, 1),
+    ('Смартфон #64', 'Android, экран 6.64" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 63, 100, 20, 1),
+    ('Смартфон #65', 'Android, экран 6.65" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 64, 100, 20, 1),
+    ('Смартфон #66', 'Android, экран 6.66" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 65, 100, 20, 1),
+    ('Смартфон #67', 'Android, экран 6.67" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 66, 100, 20, 1),
+    ('Смартфон #68', 'Android, экран 6.68" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 67, 100, 20, 1),
+    ('Смартфон #69', 'Android, экран 6.69" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 68, 100, 20, 1),
+    ('Смартфон #70', 'Android, экран 6.70" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 69, 100, 20, 1),
+    ('Смартфон #71', 'Android, экран 6.71" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 70, 100, 20, 1),
+    ('Смартфон #72', 'Android, экран 6.72" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 71, 100, 20, 1),
+    ('Смартфон #73', 'Android, экран 6.73" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 72, 100, 20, 1),
+    ('Смартфон #74', 'Android, экран 6.74" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 73, 100, 20, 1),
+    ('Смартфон #75', 'Android, экран 6.75" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 74, 100, 20, 1),
+    ('Смартфон #76', 'Android, экран 6.76" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 75, 100, 20, 1),
+    ('Смартфон #77', 'Android, экран 6.77" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 76, 100, 20, 1),
+    ('Смартфон #78', 'Android, экран 6.78" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 77, 100, 20, 1),
+    ('Смартфон #79', 'Android, экран 6.79" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 78, 100, 20, 1),
+    ('Смартфон #80', 'Android, экран 6.80" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 79, 100, 20, 1),
+    ('Смартфон #81', 'Android, экран 6.81" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 80, 100, 20, 1),
+    ('Смартфон #82', 'Android, экран 6.82" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 81, 100, 20, 1),
+    ('Смартфон #83', 'Android, экран 6.83" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 82, 100, 20, 1),
+    ('Смартфон #84', 'Android, экран 6.84" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 83, 100, 20, 1),
+    ('Смартфон #85', 'Android, экран 6.85" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 84, 100, 20, 1),
+    ('Смартфон #86', 'Android, экран 6.86" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 85, 100, 20, 1),
+    ('Смартфон #87', 'Android, экран 6.87" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 86, 100, 20, 1),
+    ('Смартфон #88', 'Android, экран 6.88" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 87, 100, 20, 1),
+    ('Смартфон #89', 'Android, экран 6.89" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 88, 100, 20, 1),
+    ('Смартфон #90', 'Android, экран 6.90" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 89, 100, 20, 1),
+    ('Смартфон #91', 'Android, экран 6.91" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 90, 100, 20, 1),
+    ('Смартфон #92', 'Android, экран 6.92" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 91, 100, 20, 1),
+    ('Смартфон #93', 'Android, экран 6.93" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 92, 100, 20, 1),
+    ('Смартфон #94', 'Android, экран 6.94" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 93, 100, 20, 1),
+    ('Смартфон #95', 'Android, экран 6.95" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 94, 100, 20, 1),
+    ('Смартфон #96', 'Android, экран 6.96" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 95, 100, 20, 1),
+    ('Смартфон #97', 'Android, экран 6.97" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 96, 100, 20, 1),
+    ('Смартфон #98', 'Android, экран 6.98" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 97, 100, 20, 1),
+    ('Смартфон #99', 'Android, экран 6.99" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 98, 100, 20, 1),
+    ('Смартфон #100', 'Android, экран 6.100" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 99, 100, 20, 1),
+    ('Смартфон #101', 'Android, экран 6.101" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 100, 100, 20, 1),
+    ('Смартфон #102', 'Android, экран 6.102" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 101, 100, 20, 1),
+    ('Смартфон #103', 'Android, экран 6.103" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 102, 100, 20, 1),
+    ('Смартфон #104', 'Android, экран 6.104" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 103, 100, 20, 1),
+    ('Смартфон #105', 'Android, экран 6.105" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 104, 100, 20, 1),
+    ('Смартфон #106', 'Android, экран 6.106" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 105, 100, 20, 1),
+    ('Смартфон #107', 'Android, экран 6.107" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 106, 100, 20, 1),
+    ('Смартфон #108', 'Android, экран 6.108" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 107, 100, 20, 1),
+    ('Смартфон #109', 'Android, экран 6.109" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 108, 100, 20, 1),
+    ('Смартфон #110', 'Android, экран 6.110" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 109, 100, 20, 1),
+    ('Смартфон #111', 'Android, экран 6.111" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 110, 100, 20, 1),
+    ('Смартфон #112', 'Android, экран 6.112" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 111, 100, 20, 1),
+    ('Смартфон #113', 'Android, экран 6.113" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 112, 100, 20, 1),
+    ('Смартфон #114', 'Android, экран 6.114" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 113, 100, 20, 1),
+    ('Смартфон #115', 'Android, экран 6.115" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 114, 100, 20, 1),
+    ('Смартфон #116', 'Android, экран 6.116" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 115, 100, 20, 1),
+    ('Смартфон #117', 'Android, экран 6.117" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 116, 100, 20, 1),
+    ('Смартфон #118', 'Android, экран 6.118" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 117, 100, 20, 1),
+    ('Смартфон #119', 'Android, экран 6.119" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 118, 100, 20, 1),
+    ('Смартфон #120', 'Android, экран 6.120" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 119, 100, 20, 1),
+    ('Смартфон #121', 'Android, экран 6.121" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 120, 100, 20, 1),
+    ('Смартфон #122', 'Android, экран 6.122" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 121, 100, 20, 1),
+    ('Смартфон #123', 'Android, экран 6.123" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 122, 100, 20, 1),
+    ('Смартфон #124', 'Android, экран 6.124" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 123, 100, 20, 1),
+    ('Смартфон #125', 'Android, экран 6.125" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 124, 100, 20, 1),
+    ('Смартфон #126', 'Android, экран 6.126" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 125, 100, 20, 1),
+    ('Смартфон #127', 'Android, экран 6.127" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 126, 100, 20, 1),
+    ('Смартфон #128', 'Android, экран 6.128" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 127, 100, 20, 1),
+    ('Смартфон #129', 'Android, экран 6.129" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 128, 100, 20, 1),
+    ('Смартфон #130', 'Android, экран 6.130" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 129, 100, 20, 1),
+    ('Смартфон #131', 'Android, экран 6.131" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 130, 100, 20, 1),
+    ('Смартфон #132', 'Android, экран 6.132" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 131, 100, 20, 1),
+    ('Смартфон #133', 'Android, экран 6.133" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 132, 100, 20, 1),
+    ('Смартфон #134', 'Android, экран 6.134" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 133, 100, 20, 1),
+    ('Смартфон #135', 'Android, экран 6.135" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 134, 100, 20, 1),
+    ('Смартфон #136', 'Android, экран 6.136" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 135, 100, 20, 1),
+    ('Смартфон #137', 'Android, экран 6.137" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 136, 100, 20, 1),
+    ('Смартфон #138', 'Android, экран 6.138" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 137, 100, 20, 1),
+    ('Смартфон #139', 'Android, экран 6.139" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 138, 100, 20, 1),
+    ('Смартфон #140', 'Android, экран 6.140" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 139, 100, 20, 1),
+    ('Смартфон #141', 'Android, экран 6.141" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 140, 100, 20, 1),
+    ('Смартфон #142', 'Android, экран 6.142" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 141, 100, 20, 1),
+    ('Смартфон #143', 'Android, экран 6.143" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 142, 100, 20, 1),
+    ('Смартфон #144', 'Android, экран 6.144" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 143, 100, 20, 1),
+    ('Смартфон #145', 'Android, экран 6.145" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 144, 100, 20, 1),
+    ('Смартфон #146', 'Android, экран 6.146" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 145, 100, 20, 1),
+    ('Смартфон #147', 'Android, экран 6.147" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 146, 100, 20, 1),
+    ('Смартфон #148', 'Android, экран 6.148" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 147, 100, 20, 1),
+    ('Смартфон #149', 'Android, экран 6.149" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 148, 100, 20, 1),
+    ('Смартфон #150', 'Android, экран 6.150" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 149, 100, 20, 1),
+    ('Смартфон #151', 'Android, экран 6.151" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 150, 100, 20, 1),
+    ('Смартфон #152', 'Android, экран 6.152" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 151, 100, 20, 1),
+    ('Смартфон #153', 'Android, экран 6.153" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 152, 100, 20, 1),
+    ('Смартфон #154', 'Android, экран 6.154" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 153, 100, 20, 1),
+    ('Смартфон #155', 'Android, экран 6.155" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 154, 100, 20, 1),
+    ('Смартфон #156', 'Android, экран 6.156" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 155, 100, 20, 1),
+    ('Смартфон #157', 'Android, экран 6.157" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 156, 100, 20, 1),
+    ('Смартфон #158', 'Android, экран 6.158" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 157, 100, 20, 1),
+    ('Смартфон #159', 'Android, экран 6.159" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 158, 100, 20, 1),
+    ('Смартфон #160', 'Android, экран 6.160" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 159, 100, 20, 1),
+    ('Смартфон #161', 'Android, экран 6.161" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 160, 100, 20, 1),
+    ('Смартфон #162', 'Android, экран 6.162" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 161, 100, 20, 1),
+    ('Смартфон #163', 'Android, экран 6.163" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 162, 100, 20, 1),
+    ('Смартфон #164', 'Android, экран 6.164" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 163, 100, 20, 1),
+    ('Смартфон #165', 'Android, экран 6.165" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 164, 100, 20, 1),
+    ('Смартфон #166', 'Android, экран 6.166" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 165, 100, 20, 1),
+    ('Смартфон #167', 'Android, экран 6.167" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 166, 100, 20, 1),
+    ('Смартфон #168', 'Android, экран 6.168" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 167, 100, 20, 1),
+    ('Смартфон #169', 'Android, экран 6.169" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 168, 100, 20, 1),
+    ('Смартфон #170', 'Android, экран 6.170" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 169, 100, 20, 1),
+    ('Смартфон #171', 'Android, экран 6.171" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 170, 100, 20, 1),
+    ('Смартфон #172', 'Android, экран 6.172" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 171, 100, 20, 1),
+    ('Смартфон #173', 'Android, экран 6.173" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 172, 100, 20, 1),
+    ('Смартфон #174', 'Android, экран 6.174" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 173, 100, 20, 1),
+    ('Смартфон #175', 'Android, экран 6.175" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 174, 100, 20, 1),
+    ('Смартфон #176', 'Android, экран 6.176" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 175, 100, 20, 1),
+    ('Смартфон #177', 'Android, экран 6.177" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 176, 100, 20, 1),
+    ('Смартфон #178', 'Android, экран 6.178" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 177, 100, 20, 1),
+    ('Смартфон #179', 'Android, экран 6.179" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 178, 100, 20, 1),
+    ('Смартфон #180', 'Android, экран 6.180" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 179, 100, 20, 1),
+    ('Смартфон #181', 'Android, экран 6.181" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 180, 100, 20, 1),
+    ('Смартфон #182', 'Android, экран 6.182" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 181, 100, 20, 1),
+    ('Смартфон #183', 'Android, экран 6.183" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 182, 100, 20, 1),
+    ('Смартфон #184', 'Android, экран 6.184" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 183, 100, 20, 1),
+    ('Смартфон #185', 'Android, экран 6.185" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 184, 100, 20, 1),
+    ('Смартфон #186', 'Android, экран 6.186" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 185, 100, 20, 1),
+    ('Смартфон #187', 'Android, экран 6.187" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 186, 100, 20, 1),
+    ('Смартфон #188', 'Android, экран 6.188" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 187, 100, 20, 1),
+    ('Смартфон #189', 'Android, экран 6.189" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 188, 100, 20, 1),
+    ('Смартфон #190', 'Android, экран 6.190" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 189, 100, 20, 1),
+    ('Смартфон #191', 'Android, экран 6.191" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 190, 100, 20, 1),
+    ('Смартфон #192', 'Android, экран 6.192" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 191, 100, 20, 1),
+    ('Смартфон #193', 'Android, экран 6.193" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 192, 100, 20, 1),
+    ('Смартфон #194', 'Android, экран 6.194" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 193, 100, 20, 1),
+    ('Смартфон #195', 'Android, экран 6.195" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 194, 100, 20, 1),
+    ('Смартфон #196', 'Android, экран 6.196" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 195, 100, 20, 1),
+    ('Смартфон #197', 'Android, экран 6.197" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 196, 100, 20, 1),
+    ('Смартфон #198', 'Android, экран 6.198" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 197, 100, 20, 1),
+    ('Смартфон #199', 'Android, экран 6.199" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 198, 100, 20, 1),
+    ('Смартфон #200', 'Android, экран 6.200" AMOLED (1080x2640), Qualcomm Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM', 199, 100, 20, 1);
